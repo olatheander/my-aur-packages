@@ -6,6 +6,7 @@ This repository contains my personal collection of custom AUR (Arch User Reposit
 
 - **[bindfs](./bindfs/)**: A FUSE filesystem for mirroring a directory to another directory, similar to 'mount --bind', with permission settings.
 - **[ghcup-hs-bin](./ghcup-hs-bin/)**: Binary installer for the general-purpose Haskell installer (`ghcup`).
+- **[hunk-bin](./hunk-bin/)**: Review-first terminal diff viewer for agentic coders
 - **[slack-desktop-wayland](./slack-desktop-wayland/)**: Slack Desktop (Beta) for Linux with Wayland Support
 
 ## Installation Instructions

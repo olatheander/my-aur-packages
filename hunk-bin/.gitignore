@@ -1,0 +1,6 @@
+pkg
+src
+hunkdiff-*
+LICENSE-*
+SKILL-*.md
+*.tar.zst
