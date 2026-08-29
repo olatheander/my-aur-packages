@@ -39,18 +39,15 @@ sudo pacman -S --needed base-devel
     Run `makepkg` with the `-s` (sync dependencies) and `-i` (install package) flags:
 
     ```bash
-    makepkg -si
+    makepkg -sic
     ```
 
     - `-s`/`--syncdeps`: Automatically resolves and installs any missing dependencies via pacman.
     - `-i`/`--install`: Installs the package once built successfully.
+    - `-c (--clean)`: Cleans up temporary `$srcdir` build files and extracted sources after building, leaving only the generated `.pkg.tar.zst` package file behind.
 
 ### Additional `makepkg` Flags
 
-- **Clean build directory**: Use `-c` or `--clean` to remove temporary work files after a successful build:
-  ```bash
-  makepkg -sic
-  ```
 - **Build only (no install)**: If you only want to compile and generate the package file without installing it, omit `-i`:
   ```bash
   makepkg -s
