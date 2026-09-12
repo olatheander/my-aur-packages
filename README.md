@@ -79,7 +79,7 @@ If you want to fetch an updated `PKGBUILD` from the AUR using `yay` and rebuild/
 
 3.  **Rebuild and upgrade the package**:
     ```bash
-    makepkg -si
+    makepkg -sic
     ```
     This will build the new version and upgrade your existing installation.
 
